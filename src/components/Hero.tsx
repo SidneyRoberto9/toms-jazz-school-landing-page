@@ -23,9 +23,7 @@ export function Hero() {
           <div>
             <h1 className="mt-2">
               Crie Algo
-              <span className="text-primary block relative after:content-[''] after:bg-three after:-top-3 after:h-12 after:w-[40px]">
-                impactante
-              </span>
+              <span className="text-primary decoration">impactante</span>
               com música
             </h1>
             <p className="mt-2 mb-2">
@@ -41,7 +39,7 @@ export function Hero() {
 
       <section className="pb-8 border-black border-solid border-[0_1px_1px_1px] p-5">
         <div className="flex flex-col items-start gap-5 -mt-32 mb-16 sm:flex-row sm:flex-wrap sm:justify-center">
-          <article className="bg-primary border-2 border-solid border-black shadow-card max-w-[17rem]  pl-8 pr-0 pt-8 pb-0 sm:mt-4">
+          <article className="bg-primary border-2 border-solid border-black shadow-card max-w-[17rem] pl-8 pr-0 pt-8 pb-0 ">
             <Image src={piano} alt="ícone de teclas de piano" />
             <strong className="block text-2xl mx-0 my-4">Piano popular</strong>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolore magna aliqua.</p>
@@ -51,7 +49,7 @@ export function Hero() {
             </a>
           </article>
 
-          <article className="bg-secondary border-2 border-solid border-black shadow-card max-w-[17rem]  pl-8 pr-0 pt-8 pb-0 self-end sm:mt-4">
+          <article className="bg-secondary border-2 border-solid border-black shadow-card max-w-[17rem] pl-8 pr-0 pt-8 pb-0 self-end sm:mt-4">
             <Image src={clef} alt="ícone de teclas de piano" />
             <strong className="block text-2xl mx-0 my-4">Teoria musical</strong>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolore magna aliqua.</p>
@@ -61,7 +59,7 @@ export function Hero() {
             </a>
           </article>
 
-          <article className="bg-primary border-2 border-solid border-black shadow-card max-w-[17rem]  pl-8 pr-0 pt-8 pb-0 sm:mt-4">
+          <article className="bg-primary border-2 border-solid border-black shadow-card max-w-[17rem]  pl-8 pr-0 pt-8 pb-0 ">
             <Image src={sax} alt="ícone de teclas de piano" />
             <strong className="block text-2xl mx-0 my-4">Sax Alto</strong>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolore magna aliqua.</p>

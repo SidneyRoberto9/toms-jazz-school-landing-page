@@ -8,11 +8,26 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        arrow: "url('/src/assets/arrow-curve.svg')",
+        three: "url('/src/assets/three-dashes.svg')",
       },
+      colors: {
+        primary: '#ed4d1b',
+        secondary: '#ff9a3c',
+        black: '#000',
+        white: '#fff',
+      },
+      boxShadow: {
+        card: ' 4px 4px 0 #000',
+      },
+    },
+    screens: {
+      sm: '40rem',
+      md: '48rem',
+      lg: '72rem',
+      xl: '90rem',
     },
   },
   plugins: [],
-}
+};
+

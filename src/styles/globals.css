@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(90deg, #ffe7d1 0%, #fff2e6 100%);
+  padding: 0 1rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 105%;
+}
